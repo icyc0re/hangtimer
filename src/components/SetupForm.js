@@ -11,7 +11,7 @@ const NumberInput = ({ id, label, value, onChange }) => {
   return (
     <div className="col-lg-12">
       <label className="form-label" htmlFor={fullId}>{label}</label>
-      <input className="form-control" type="text" id={fullId} value={value} onChange={onChangeHandler} />
+      <input className="form-control" type="text" id={fullId} value={value} onChange={onChangeHandler} inputmode="numeric" />
     </div>
   );
 };

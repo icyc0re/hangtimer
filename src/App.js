@@ -14,7 +14,7 @@ function App() {
         </div>
       </nav>
 
-      <main className="container mt-5">
+      <main className="container mt-5 px-5">
         <ComplexTimer />
       </main>
     </div>

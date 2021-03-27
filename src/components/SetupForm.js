@@ -77,8 +77,14 @@ const SetupForm = ({ onStart }) => {
         onChange={v => setSets(v)} />
 
       <div className="col-md-12">
-        <button type="submit" className="btn btn-primary">Start</button>
-        <button type="reset" className="btn btn-outline-secondary ms-3">Reset</button>
+        <div className="row">
+          <div className="col-sm-12 col-md-3 mt-3">
+            <button type="submit" className="btn btn-primary col-12">Start</button>
+          </div>
+          <div className="col-sm-12 col-md-3 mt-3">
+            <button type="reset" className="btn btn-outline-secondary col-12">Reset</button>
+          </div>
+        </div>
       </div>
     </form>
   );

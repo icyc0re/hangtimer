@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import ComplexTimer from './components/ComplexTimer';
+
 const APP_TITLE = 'Hangtimer';
 
 function App() {
@@ -12,7 +14,9 @@ function App() {
         </div>
       </nav>
 
-
+      <main className="container mt-5">
+        <ComplexTimer />
+      </main>
     </div>
   );
 }

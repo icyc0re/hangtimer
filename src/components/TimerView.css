@@ -1,0 +1,26 @@
+.timer_view {
+  font-size: 1.4em;
+}
+
+.action_text {
+  font-size: 4em;
+  font-weight: bold;
+}
+
+.action_time {
+  font-size: 4em;
+}
+
+.action_ready,
+.action_done {
+  color: black;
+}
+.action_hang {
+  color: green;
+}
+.action_pause {
+  color: grey;
+}
+.action_rest {
+  color: rgba(0, 0, 255, 0.6);
+}
